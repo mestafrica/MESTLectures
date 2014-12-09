@@ -1,4 +1,29 @@
-MESTLectures
-============
+# MESTLectures
 
-Repository for all information and contents related to MEST lectures
+*** See this README for information about all Software Development course lectures from the 2014-2015 academic year.
+
+## Instructors
+* Akshaya Acharya
+* Nestor Benavidez
+* [Ben Jones](https://github.com/yogiben)
+* [Ten Mutunhire](https://github.com/tranc99)
+* [David Selassie Opoku](https://github.com/sdopoku)
+
+
+## Curriculum Overview
+
+An overview of the topics that will be covered for the Software Development lectures of the MEST program.
+
+### First Year Semester 1: August - December
+
+* Introduction to Computers
+* HTML, CSS and Responsive Web Design
+* Expressing Problems in Pseudocode
+* Introduction to Best Practices in Software Development
+* Java Programming
+* Introduction to Databases
+* Introduction to Ruby
+* Ruby on Rails
+* Advanced Rails
+
+### First Year Semester 2: January - June
