@@ -7,6 +7,12 @@ This cheat sheet provides some quick meteor commands to get things done during y
 ### Install the Meteor package
 To create a new meteor application with biolerplate files
 
-Use: `meteor create application_name`
+Use: `meteor create app_name`
 
-Example: `meteor create firstApp`
+Example: To create a Meteor app called firstApp, `meteor create firstApp`
+
+### Deploying On Meteor
+
+To deploy on a Meteor subdomain: `meteor deploy app_name.meteor.com`
+
+Example: To deploy firstApp, `meteor deploy firstApp.meteor.com`
