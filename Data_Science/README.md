@@ -2,7 +2,7 @@
 
 This is an introductory course in Data Science that is based of the [Doing Data Science book](http://shop.oreilly.com/product/0636920028529.do) by Rachel Schutt and Cathy O'Neil. This course is intended for anyone interested in learning more about the data science process and applying it to their everyday projects or business solutions.
 
-The main goal of this course is to introduce students to data science techniques that allows them to produce production-level data products instead of mere research algorithms. What this means is that we will aim to incorporate and deploy our data products into a web or mobile application that for users to interact with.
+The main goal of this course is to introduce students to data science techniques that allows them to produce production-level data products instead of mere research algorithms. What this means is that we will aim to incorporate and deploy our data products into a web or mobile application for users to interact with.
 
 ## Course Instructor
 - ####[David Selassie Opoku](https://www.github.com/sdopoku)
