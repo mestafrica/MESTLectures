@@ -1,6 +1,6 @@
 # Doing Data Science at [MEST](http://www.meltwater.org)
 
-This is an introductory course in Data Science that is based of the [Doing Data Science book](http://shop.oreilly.com/product/0636920028529.do) by Rachel Schutt and Cathy O'Neil. This course is intended for anyone interested in learning more about the data science process and applying it to their everyday projects or business solutions.
+This is an introductory course in Data Science that is mainly based on the structure of [Doing Data Science book](http://shop.oreilly.com/product/0636920028529.do) by Rachel Schutt and Cathy O'Neil. This course is intended for anyone interested in learning more about the data science process and applying it to their everyday projects or business solutions.
 
 The main goal of this course is to introduce students to data science techniques that allows them to produce production-level data products instead of mere research algorithms. What this means is that we will aim to incorporate and deploy our data products into a web or mobile application for users to interact with.
 
@@ -8,26 +8,39 @@ The main goal of this course is to introduce students to data science techniques
 - ####[David Selassie Opoku](https://www.github.com/sdopoku)
 
 ## Course Outline
-1. Session 1: Why Data Science
+
+- Why Data Science
+
+
+- The Data Science Process
   + Statistical Inference
   + Exploratory Data Analysis
-  + The Data Science Process
+  + Machine Learning Process
 
-2. Session 2: Basic Algorithms
+
+- Basic Algorithms
   + Linear Regression
   + k Nearest Neighbours
   + k Means
   + Naive Bayes
   + Logistics Regression
 
-- Session 3:
-- Session : Other Algorithms
-  - Decision Trees
-  - Random Forests
 
-- Session : Data Visualization
+- Getting Data
+  + Public Data Sources
+  + Developer APIs
+  + Creating Data
 
-- Session : Data Sources
+
+- Other Algorithms
+  + Support Vector Machines
+  + Decision Trees & Random Forests
+  + Neural Networks & Deep Learning
+
+
+- Data Visualization
+
+
 
 ## Prerequisites
 
@@ -51,12 +64,50 @@ Mastering the Data Science process requires having a set of basic tools to proce
 
 ## Assignments
   + Homework 0: Setup Done(solutions)
+  + Homework 1: What is Data Science
   + Homework 2: Data Processing
   + Homework 3: Algorithms
   + Homework 4: Data Visualization
   + Homework 5: Data Sources
   + Homework 6: Data Architectures
 
-## Readings
+## Resources
 
-## Books
+### Books
++ [Doing Data Science](http://shop.oreilly.com/product/0636920028529.do)
++ [Think Stats](http://shop.oreilly.com/product/0636920034094.do)
++ [Data Science at the Command Line](http://datascienceatthecommandline.com/)
++ [Thinking With Data](http://shop.oreilly.com/product/0636920029182.do)
++ [The Field Guide to Data Science](http://www.boozallen.com/insights/2013/11/data-science-field-guide)
++ [Agile Data Science](http://shop.oreilly.com/product/0636920025054.do)
+
+### Articles
+
++ NY Times Bits post on [Looking to the Future of Data Science](http://bits.blogs.nytimes.com/2014/08/27/looking-to-the-future-of-data-science)
++ Hanna Wallach's Medium post on [Big Data, Machine Learning, and the Social Sciences](https://medium.com/@hannawallach/big-data-machine-learning-and-the-social-sciences-927a8e20460d)
++ Data Robot's post on [A Primer on Deep Learning](http://www.datarobot.com/blog/a-primer-on-deep-learning/)
++ [Data Science Has Been Using Rebel Statistics for a Long Time]()
+
+### Videos
++ Hilary Mason's [Devs Love Bacon: Everything you need to know about Machine Learning in 30 minutes or less](http://www.hilarymason.com/presentations-2/devs-love-bacon-everything-you-need-to-know-about-machine-learning-in-30-minutes-or-less/)
++ Jeremy Howard's TED talk on [The wonderful and terrifying implications of computers that can learn](http://www.ted.com/talks/jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn)
+
+### Data Sources
++ [The Human Data Exchange](https://data.hdx.rwlabs.org)
++ [Open Data for Africa](http://opendataforafrica.org/)
++ [Ghana Open Data Initiative](http://data.gov.gh/)
++ [Africa Open Data](http://africaopendata.org/)
++ Hilary Mason's [Bundle of Research-Quality Data Sets](https://bitly.com/bundles/hmason/1)
++ [Quandl](https://www.quandl.com/)
++ [Enigma](http://enigma.io/)
++ [Reddit Open Data](http://www.reddit.com/r/opendata)
++ [Datamob](http://datamob.org/datasets)
+
+
+### Blogs
++ [The Open-Source Data Science Masters](http://datasciencemasters.org/)
++ Nathan Yau's [Flowing Daa](http://flowingdata.com/)
++ Slender Means [Will It Python](http://slendermeans.org/pages/will-it-python.html) posts
++ United Nations [Global Pulse](http://www.unglobalpulse.org/)
++ [Fast ML](http://fastml.com/)
++ [Data Science Central](http://www.datasciencecentral.com)
