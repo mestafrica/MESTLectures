@@ -5,7 +5,7 @@ This is an introductory course in Data Science that is mainly based on the struc
 The main goal of this course is to introduce students to data science techniques that allows them to produce production-level data products instead of mere research algorithms. What this means is that we will aim to incorporate and deploy our data products into a web or mobile application for users to interact with.
 
 ## Course Instructor
-- ####[David Selassie Opoku](https://www.github.com/sdopoku)
+- #### [David Selassie Opoku](https://www.github.com/sdopoku)
 
 ## Course Outline
 
