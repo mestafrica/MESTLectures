@@ -102,6 +102,7 @@ Mastering the Data Science process requires having a set of basic tools to proce
 + [Enigma](http://enigma.io/)
 + [Reddit Open Data](http://www.reddit.com/r/opendata)
 + [Datamob](http://datamob.org/datasets)
++ [Twitter API](https://dev.twitter.com/overview/api)
 
 
 ### Blogs
