@@ -20,15 +20,16 @@ Other examples of serialization systems are [Thrift](http://thrift.apache.org/) 
 + Install Snappy for Python: `pip install python-snappy`
 
 + Install Python Avro
-+ From source:
-```bash
-git clone https://github.com/apache/avro.git
-cd avro/lang/py
-python setup.py install
-```
+  + From source:
+  ```bash
+  git clone https://github.com/apache/avro.git
+  cd avro/lang/py
+  python setup.py install
+  ```
 
-+ Install using pip or easy_install:
-`pip install avro` or
-`easy_install avro`
+  + Install using pip or easy_install:
+  `pip install avro` or
+  `easy_install avro`
 
-+ Test Avro Installation
++ Test Avro Installation using the python file in the Avro folder above:
+  `python test_avro.py`
