@@ -86,7 +86,7 @@ Mastering the Data Science process requires having a set of basic tools to proce
 + NY Times Bits post on [Looking to the Future of Data Science](http://bits.blogs.nytimes.com/2014/08/27/looking-to-the-future-of-data-science)
 + Hanna Wallach's Medium post on [Big Data, Machine Learning, and the Social Sciences](https://medium.com/@hannawallach/big-data-machine-learning-and-the-social-sciences-927a8e20460d)
 + Data Robot's post on [A Primer on Deep Learning](http://www.datarobot.com/blog/a-primer-on-deep-learning/)
-+ [Data Science Has Been Using Rebel Statistics for a Long Time]()
++ [Data Science Has Been Using Rebel Statistics for a Long Time](http://www.datasciencecentral.com/profiles/blogs/data-science-has-been-using-rebel-statistics-for-a-long-time)
 
 ### Videos
 + Hilary Mason's [Devs Love Bacon: Everything you need to know about Machine Learning in 30 minutes or less](http://www.hilarymason.com/presentations-2/devs-love-bacon-everything-you-need-to-know-about-machine-learning-in-30-minutes-or-less/)
