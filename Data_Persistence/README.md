@@ -6,7 +6,7 @@ Data persistence can be achieved through [serialization](http://en.wikipedia.org
 
 ### [SQLite](http://www.sqlite.org/): a self-contained, serverless, zero-configuration SQL database engine
 
-### [Apache Avro™](https://github.com/MESTghana/MESTLectures/Data_Persistence/Avro): a data serialization system.
+### [Apache Avro™](https://github.com/MESTghana/MESTLectures/tree/master/Data_Persistence/Avro): a data serialization system.
 
 ### [M]ySQL](http://www.mysql.com/): an open source relational database management system
 
