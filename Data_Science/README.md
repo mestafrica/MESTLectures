@@ -1,7 +1,7 @@
 # Doing Data Science at [MEST](http://www.meltwater.org)
 
 
-The main goal of this course is to introduce students to data science techniques that allows them to produce production-level data products that solve data-centric problems. What this means is that we will aim to incorporate and deploy our data products into a web or mobile application for users to interact with.
+The main goal of this course is to introduce students to data science techniques that allows them to produce production-level data products that solve problems. What this means is that we will aim to incorporate and deploy our data products into a web or mobile application for users to interact with. I hope at the end of this course, students will be able to apply core data science principles to build data-driven products and organizations.
 
 
 This is an introductory Data Science course that is mainly based on the structure of [Doing Data Science book](http://shop.oreilly.com/product/0636920028529.do) by Rachel Schutt and Cathy O'Neil. This course is intended for anyone interested in learning more about the data science process and applying it to their everyday projects or business solutions.
