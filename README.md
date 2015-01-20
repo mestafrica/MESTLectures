@@ -24,19 +24,20 @@ An overview of the topics that will be covered for the Software Development lect
 * Introduction to Databases
 * Introduction to Ruby
 * Ruby on Rails
-* Advanced Rails
+* Advanced Topics in Rails
 
 ### First Year Semester 2: January - June
 
-* Agile Software Development Methods
-* Software Development Best Practices
-* Advanced Rails Continued
-* Introduction to JavaScript
+
+* Advanced Topics in Rails Continued
+* Introduction to JavaScript & jQuery
+* Software Development Best Practices Overview
 * MeteorJS
 * Server Architecture, Configuration and Administration
 * Code Design and Best Practices
 * Mobile Development
 * Front-End MVC Frameworks
+* UI/UX
 
 ## Homework/Projects
 
