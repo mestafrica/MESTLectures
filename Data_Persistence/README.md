@@ -1,6 +1,6 @@
 # Data Persistence
 
-Data Persistence refers to the ability to save maintain data after a process that created it end. Without persistence, data will only exist in RAM and therefore become volatile. This is important in order to store data for future use in applications.
+Data Persistence refers to the ability to maintain the state of data after a process that created it ends. Without persistence, data will only exist in RAM and therefore become volatile. This is important in order to store data for future application use.
 
 Data persistence can be achieved through [serialization](http://en.wikipedia.org/wiki/Serialization) which enables conversion of data stored in a program/process into some type of data store such as flat files or databases. Below are some tools for data persistence:
 
