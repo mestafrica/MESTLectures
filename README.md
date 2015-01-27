@@ -1,10 +1,9 @@
 # MESTLectures
 
-See this README for information about all Software Development course lectures  taught at [Meltwater Entrepreneurial School of Technology](http://www.meltwater.org) for the 2014-2015 academic year.
+See this for information about all Software Development course lectures  taught at [Meltwater Entrepreneurial School of Technology](http://www.meltwater.org) for the 2014-2015 academic year.
 
 ## Instructors
 * [Akshaya Acharya](https://github.com/akshaya7)
-* Nestor Benavidez
 * [Ben Jones](https://github.com/yogiben)
 * [Ten Mutunhire](https://github.com/tranc99)
 * [David Selassie Opoku](https://github.com/sdopoku)
