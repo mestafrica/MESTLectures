@@ -3,30 +3,54 @@
     <head>
         <meta charset="UTF-8">
         <title>Document</title>
+
+        <!-- Load jQuery first-->
         <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+        <!-- Loaded after jQuery-->
+        <script src="myscript.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="petshop.css">
-        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="animate.css">
     </head>
     <body>
         <div class="container">
             <div class="row">
-            	<div class="col-md-12">
-		            <h1 class="text-center">This is my petshop</h1>
-            	</div>
-            </div>
+                <div class="col-md-12">
+                    <h1 id="title" class="text-center">This is my petshop</h1>
+                    <div class="input-group">
+                        <input id="title-input" type="text" class="form-control" placeholder="Type a title">
+                        <span class="input-group-btn">
+                        <button id="title-submit" class="btn btn-default" type="button">Change name</button>
+                        </span>
+                        </div><!-- /input-group -->
+                    </div>
+                </div>
+                <hr/>
+                <div class="row" id="kittens">
+                    <div id="k1" class="col-md-2">
+                        <img src="http://placekitten.com/g/150/150" alt="" class="animated bounceInUp img-thumbnail img-circle">
+                    </div>
+                    <div id="k2" class="col-md-2">
+                        <img src="http://placekitten.com/g/150/150" alt="" class="animated bounceInUp img-thumbnail img-circle">
+                    </div>
+                    <div id="k3" class="col-md-2">
+                        <img src="http://placekitten.com/g/150/150" alt="" class="animated bounceInUp img-thumbnail img-circle">
+                    </div>
+                    <div id="k4" class="col-md-2">
+                        <img src="http://placekitten.com/g/150/150" alt="" class="animated bounceInUp img-thumbnail img-circle">
+                    </div>
+                    <div id="k5" class="col-md-2">
+                        <img src="http://placekitten.com/g/150/150" alt="" class="animated bounceInUp img-thumbnail img-circle">
+                    </div>
+                    <div id="k6" class="col-md-2">
+                        <img src="http://placekitten.com/g/150/150" alt="" class="animated bounceInUp img-thumbnail img-circle">
+                    </div>
+                </div>
 
-            <div class="row" id="kittens">
-            	<div id="1" class="col-md-2"><img src="http://placekitten.com/g/150/150" alt="" class="kitten"></div>
-            	<div id="2" class="col-md-2"><img src="http://placekitten.com/g/150/150" alt="" class="kitten"></div>
-            	<div id="3" class="col-md-2"><img src="http://placekitten.com/g/150/150" alt="" class="kitten"></div>
-            	<div id="4" class="col-md-2"><img src="http://placekitten.com/g/150/150" alt="" class="kitten"></div>
-            	<div id="5" class="col-md-2"><img src="http://placekitten.com/g/150/150" alt="" class="kitten"></div>
-            	<div id="6" class="col-md-2"><img src="http://placekitten.com/g/150/150" alt="" class="kitten"></div>
             </div>
-			
-        </div>
-    </body>
-</html>
+        </body>
+    </html>

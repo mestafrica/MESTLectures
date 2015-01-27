@@ -2,3 +2,21 @@
 {
 	border: solid 10px yellow;
 }
+
+.fa-heart
+{
+	font-size: 1.6em;
+	color: red;
+}
+
+img:hover
+{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	-webkit-filter: sepia(1);
+}
+
+.container
+{
+	margin-top: 100px;
+}
