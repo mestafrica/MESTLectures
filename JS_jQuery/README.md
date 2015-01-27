@@ -61,6 +61,11 @@ N.B. By highlight, I mean emphasize in some way
 *	Toggle a highlight when on click 
 *	Highlight just that kitten on click 
 
+
+#### 1.3.5 Animation ####
+* Apply a different [jQuery animation](http://www.w3schools.com/jquery/jquery_animate.asp) to each of your kittens when clicked (hint: `.animate()`)
+* Add [animate.css](http://daneden.github.io/animate.css/) to your project and use this to animate your kittens
+
 ####1.4 – Adding elements####
 *	Create a button to add a kitten (hint: `.append`)
 *	Create X number of kittens on page load
