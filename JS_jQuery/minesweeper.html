@@ -25,35 +25,10 @@
                 <hr/>
                 <div class="row" id="game">
 
-                    <div class="col-md-6 col-md-offset-3 text-center">
-                        <div class="gr">
-                            <div class="gc"></div>
-                            <div class="gc"></div>
-                            <div class="gc"></div>
-                            <div class="gc"></div>
-                        </div>
-                        <div class="gr">
-                            <div class="gc"></div>
-                            <div class="gc"></div>
-                            <div class="gc"></div>
-                            <div class="gc"></div>
-                        </div>
-                        <div class="gr">
-                            <div class="gc"></div>
-                            <div class="gc"></div>
-                            <div class="gc"></div>
-                            <div class="gc"></div>
-                        </div>
-                        <div class="gr">
-                            <div class="gc"></div>
-                            <div class="gc"></div>
-                            <div class="gc"></div>
-                            <div class="gc"></div>
-                        </div>
+                    <div class="col-md-6 col-md-offset-3 text-center" id="grid-container">
+                    <!--Grid will be generated here-->
                     </div>
-
                 </div>
-
             </div>
             <div class="modal fade" id="modal-failure">
                 <div class="modal-dialog">
@@ -75,9 +50,9 @@
 
             <script>
             var options = {
-                mineCount: 3,
-                yCount: 4, //no. of rows
-                xCount: 4 //no. of columns
+                mineCount: 5,
+                yCount: 5, //no. of rows
+                xCount: 5 //no. of columns
             }
 
             $(document).ready(function(){

@@ -5,8 +5,35 @@ Game = {
 		this.options = options
 
 		this.reset();
+		this.buildGrid();
 		this.addMines();
 		this.bindClick();
+	},
+	buildGrid: function(){
+		var i = 0;
+		var j = 0;
+
+		var gc = '<div class="gc"></div>';
+		var gr = '';
+
+		//Build a row
+		while (i< this.options.xCount){
+			gr += gc;
+			i++;
+		}
+
+		gr = '<div class="gr">' + gr + '</div>';
+
+
+		var grid = '';
+		//Add rows together
+		while (j< this.options.yCount){
+			grid += gr;
+			j++;
+		}
+
+		//Add to the DOM
+		$('#grid-container').append(grid);
 	},
 	addMines: function(){
 		var i = 0;
@@ -37,7 +64,7 @@ Game = {
 
 	},
 	reset: function(){
-		$('.gc').removeClass('clicked mine');
+		$('#grid-container').html('');
 		$('.game-ended').removeClass('game-ended');
 		$('.modal').modal('hide');
 	},
