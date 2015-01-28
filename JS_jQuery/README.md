@@ -80,3 +80,47 @@ N.B. By highlight, I mean emphasize in some way
 *	Treat clicking on the kittens as a purchase. Confirm the purchase with a bootstrap modal. User redirected to a new page if he confirms purchase.
 
 
+### Task 2: Create a checkout page ####
+This excercise is to practise validation
+
+#### 2.0 - HTML page with inputs####
+* include name, address & a selection
+* Submit button
+
+#### 2.1 - Validate the inputs ####
+* Check that the inputs are correct
+* Use bootstrap [validation](http://getbootstrap.com/css/)
+* Alert the user if something is wrong / missing
+
+#### 2.2 - Modal on success ####
+* Use a [bootstrap modal](http://getbootstrap.com/javascript/#modals) to indicate success
+
+### Task 3: Create minesweeper ###
+Minesweeper is a simple game where you click on tiles. Some tiles have mines underneath!
+
+#### 3.0 - Create a simple, one-player game with static mines ####
+* Mines can be in the same place (hint: use `hasClass` to check if a tile is a `mine` tile)
+
+#### 3.1 - Randomize position of mines ####
+* X mines should be distributed randomly
+
+#### 3.2 - Make it playable ####
+* Support 2 players
+* Add a reset button
+
+#### 3.3 - Make it sociable ####
+* At the end of the game, add a bootstrap modal which encourages your user to share
+
+#### 3.4 - Add settings ####
+* Create an object `options = {mines: 13,...`
+* Make number of tiles (X x Y) variable (hint: use `apend`)
+* Make number of mines variable
+
+#### 3.5 - Gambling! ####
+* Allow users to bet on the result of the game
+
+#### 3.6 - Make it sexy ####
+* Add sound effects
+* Add anmiations
+
+
