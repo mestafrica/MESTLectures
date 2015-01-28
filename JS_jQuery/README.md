@@ -51,7 +51,7 @@ $(document).ready(function(){
 N.B. By highlight, I mean emphasize in some way
 
 #### 1.2 – Interaction####
-*	Create a button to hide / show all the kittens
+*	Create a button to hide / show all the kittens (hint: `onclick` is an easy way)
 *	Add a text input and button. Update the Title of your shop with the input’s value when the button is clicked
 *	Update the title automatically when the input is changed
 *	Create a way to easily ‘open’ and ‘close’ the shop
