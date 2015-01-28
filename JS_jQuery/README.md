@@ -89,6 +89,11 @@ This excercise is to practise validation
 
 #### 2.1 - Validate the inputs ####
 * Check that the inputs are correct
+* Use bootstrap [validation](http://getbootstrap.com/css/)
+* Alert the user if something is wrong / missing
+
+#### 2.2 - Modal on success ####
+* Use a [bootstrap modal](http://getbootstrap.com/javascript/#modals) to indicate success
 
 ### Task 3: Create minesweeper ###
 Minesweeper is a simple game where you click on tiles. Some tiles have mines underneath!
