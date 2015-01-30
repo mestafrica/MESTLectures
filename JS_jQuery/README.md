@@ -123,4 +123,13 @@ Minesweeper is a simple game where you click on tiles. Some tiles have mines und
 * Add sound effects
 * Add anmiations
 
+### Task 4 - Google Maps ###
+
+#### 4.0 - Set up ####
+* Create an HTML document with Boostrap, jQuery and the Google Maps API
+* Set up a simple map
+
+#### 4.1 My home ####
+* Create a marker where you were born
+* Initialize the map with options, including the centre and an appropriate level of zoom
 
