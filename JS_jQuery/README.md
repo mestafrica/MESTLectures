@@ -1,4 +1,4 @@
-#jQuery#
+#JS && jQuery#
 
 jQuery is a JavaScript library that makes it easy to interact with the DOM.
 
@@ -12,8 +12,8 @@ You can access it using `jQuery` or the shorthand `$`.
 
 `$('input').val('my value')`
 
-
 ####Click on something or react to a click####
+
 `$('button').click()`
 ```
 $('button').click(function(){
@@ -123,4 +123,25 @@ Minesweeper is a simple game where you click on tiles. Some tiles have mines und
 * Add sound effects
 * Add anmiations
 
+### Task 4 - Google Maps ###
 
+#### 4.0 - Set up ####
+* Create an HTML document with Boostrap, jQuery and the Google Maps API
+* Set up a [simple map](http://www.w3schools.com/googleapi/google_maps_basic.asp)
+
+#### 4.1 My home ####
+* Create a marker where you were born
+* Initialize the map with options, including the centre and an appropriate level of zoom
+
+#### 4.2 Customise ####
+* Change the map type
+* Configure the controls you want
+* Make your map look nice in your page
+
+#### 4.3 Life story ####
+* Add multiple markers for your various life events (hint: use an [array](http://www.w3schools.com/js/js_arrays.asp)  and a [for](http://www.w3schools.com/js/js_loop_for.asp) loop)
+* Add popup messages when you click on the marker with explanations
+
+#### 4.4 Your direction ####
+* Add a polyline linking your points
+* Fit the map bounds to the points
