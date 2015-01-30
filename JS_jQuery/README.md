@@ -139,7 +139,7 @@ Minesweeper is a simple game where you click on tiles. Some tiles have mines und
 * Make your map look nice in your page
 
 #### 4.3 Life story ####
-* Add multiple markers for your various life events
+* Add multiple markers for your various life events (hint: use an [array](http://www.w3schools.com/js/js_arrays.asp)  and a [for](http://www.w3schools.com/js/js_loop_for.asp) loop)
 * Add popup messages when you click on the marker with explanations
 
 #### 4.4 Your direction ####
