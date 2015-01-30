@@ -138,3 +138,10 @@ Minesweeper is a simple game where you click on tiles. Some tiles have mines und
 * Configure the controls you want
 * Make your map look nice in your page
 
+#### 4.3 Life story ####
+* Add multiple markers for your various life events
+* Add popup messages when you click on the marker with explanations
+
+#### 4.4 Your direction ####
+* Add a polyline linking your points
+* Fit the map bounds to the points
