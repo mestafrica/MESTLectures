@@ -133,3 +133,8 @@ Minesweeper is a simple game where you click on tiles. Some tiles have mines und
 * Create a marker where you were born
 * Initialize the map with options, including the centre and an appropriate level of zoom
 
+#### 4.2 Customise ####
+* Change the map type
+* Configure the controls you want
+* Make your map look nice in your page
+
