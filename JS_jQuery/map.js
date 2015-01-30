@@ -31,12 +31,12 @@ var locations = [
 ]
 
 function initialize() {
-    var mapProp = {
+    var mapOptions = {
         zoom: 5,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
-    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
 
     var markers	= [];
 
