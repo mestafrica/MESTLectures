@@ -153,8 +153,9 @@ Minesweeper is a simple game where you click on tiles. Some tiles have mines und
 * Create an input and button for searching for books
 * Use the [Google books api](https://developers.google.com/books/docs/v1/getting_started) to display a list of books
 * Implement a feature where you can click on a a result to see more information about the book
+* Create a loader to indicate when the ajax query is running
 
-#### 5.2Bitcoin Price converter ####
+#### 5.2 Bitcoin Price converter ####
 * Create an [input](http://getbootstrap.com/components/#input-groups) for an amount in USD and a button
 * Return the [bitcoin](http://www.coindesk.com/api/) value of the amount when the button is clicked
 * Add a dropdown to select the currency (USD, EUR, GBP)
