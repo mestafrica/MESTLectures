@@ -18,18 +18,46 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">Let's search for some books</a>
             </div>
         </nav>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    
+                <div class="col-md-6 col-md-offset-3">
+                    <form  role="form">
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="query" placeholder="Search for a book" required>
+                            <span class="input-group-btn">
+                            <button type="submit" class="btn btn-default" type="button">Go!</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <p id="loader" class="text-center animated fadeInUp"><i class="fa fa-circle-o-notch fa-spin fa-2x"></i></p>
+                    <table class="table table-hover" id="books">
+                        <thead>
+                            <tr>
+                                <thead>
+                                    <th>title</th>
+                                    <th>subtitle</th>
+                                    <th>author</th>
+                                </thead>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
