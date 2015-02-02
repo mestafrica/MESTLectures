@@ -145,3 +145,16 @@ Minesweeper is a simple game where you click on tiles. Some tiles have mines und
 #### 4.4 Your direction ####
 * Add a polyline linking your points
 * Fit the map bounds to the points
+
+### 5.0 AJAX ###
+[AJAX](http://www.w3schools.com/jquery/ajax_ajax.asp) lets you update your page with new data without a page refresh (think Facebook Messenger / Gmail)
+
+#### 5.1 Bitcoin Price converter ####
+* Create an [input](http://getbootstrap.com/components/#input-groups) for an amount in USD and a button
+* Return the [bitcoin](http://www.coindesk.com/api/) value of the amount when the button is clicked
+* Add a dropdown to select the currency (USD, EUR, GBP)
+
+#### 5.2 Books ####
+* Create an input and button for searching for books
+* Use the [Google books api](https://developers.google.com/books/docs/v1/getting_started) to display a list of books
+* Implement a feature where you can click on a a result to see more information about the book
