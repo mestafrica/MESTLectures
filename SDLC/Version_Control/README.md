@@ -1,5 +1,5 @@
 #Version Control with Git and Github
-The aim of this session is to introduce version control systems as a collaborative tool during software development. Focus will be on building skills that allow members of team to work on projects and build products with a "flow" that is seamless.
+The aim of this session is to introduce version control systems as a collaborative tool during software development. Focus will be on building skills that allow members of teams to work on projects and build products with a "flow" that is seamless.
 
 ### Goals for this lesson
 At the end of this session, you should be able to:
@@ -7,7 +7,7 @@ At the end of this session, you should be able to:
 1. Configure your git environment and initialise a git repository.
 + Edit, stage and commit files to the repository.
 + Setup a Github account.
-+ Create and collaborate. using Pull Requests
++ Collaborate using Pull Requests
 + Select and use a Github workflow for a team project.
 
 ### Milestone 1: Git Basics
@@ -42,7 +42,7 @@ At the end of this session, you should be able to:
 + Discuss what kinds of files should be ignored in a git repository
 + Check the history of commits made in the repository
 + Find all the commits made by a particular author
-+ See graph of oneline commit messages
++ See graph of oneline commit messages log.
 
 #### 1.4 - Viewing old commits
 
@@ -56,9 +56,9 @@ At the end of this session, you should be able to:
 #### 1.5 - Undoing Changes
 1. Return to the previous version of a file just committed
 + Read on and discuss the use of the `git revert` command.
-+ Draw a before and after diagram of the `git revert` command?
++ Draw a before-and-after diagram of the `git revert` command?
 + Read on and discuss the use of the `git reset` command.
-+ Draw a before and after diagram of the `git reset` command.
++ Draw a before-and-after diagram of the `git reset` command.
 + The `git reset` command is considered **DANGEROUS**. Why?
 + Read and discuss the `git clean` command.
 
@@ -66,7 +66,7 @@ At the end of this session, you should be able to:
 
 Sometimes git commands can be long and 'finger-heavy'. Alias are the solution.
 
-Create aliases for some your commonly used git commands.  **Note: By convention, aliases should be 2 letters.**
+Create aliases for some your commonly used git commands.  **Note: By convention, aliases tend to be 2 letters.**
 
 Example: `git status` becomes `git st`
 
@@ -113,7 +113,7 @@ Example: `git status` becomes `git st`
 
 + Complete the To Origin And Beyond level
 
-#### 3.2 - Workflows [TBD] 
+#### 3.2 - Workflows [TBD]
 
 
 
