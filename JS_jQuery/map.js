@@ -31,12 +31,12 @@ var locations = [
 ]
 
 function initialize() {
-    var mapProp = {
+    var mapOptions = {
         zoom: 5,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
-    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
 
     var markers	= [];
 
@@ -54,11 +54,11 @@ function initialize() {
     //Loop through locations
     for (i in locations) {
 
-    	//Set 'l' to a specific marker in the array
+    	//Set 'l' to a specific location in the array
     	l = locations[i];
+    	console.log(l);
 
     	//Create Marker
-    	console.log(l);
     	var marker = new google.maps.Marker({
     	    position: new google.maps.LatLng(l.lat,l.lng),
     	    content: l.content,

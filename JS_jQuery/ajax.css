@@ -1,0 +1,27 @@
+#loader
+{
+	display: none;
+	margin-top: 20px;
+}
+
+.loading #loader
+{
+	display: inherit;
+}
+
+#books
+{
+	display: none;
+}
+
+.loaded #books
+{
+	display: inherit;
+}
+
+table
+{
+	border-top: solid #eee 1px;
+	margin-top: 20px;
+	padding-top: 20px;
+}
