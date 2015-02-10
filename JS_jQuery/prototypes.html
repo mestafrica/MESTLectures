@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+	var Flight = function(string){
+		this.status = string;
+	}
+
+	Flight.prototype.get_status = function(){
+		return this.status;
+	}
+
+	var myFlight = new Flight('aberdeen');
+
+	console.log(myFlight.get_status());
+	</script>
+</body>
+</html>
