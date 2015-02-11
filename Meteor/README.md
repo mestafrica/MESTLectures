@@ -7,11 +7,21 @@ List of learning resources: http://learn.meteorfactory.io/meteor-learning-resour
 HTML is broken up into [templates](http://docs.meteor.com/#/basic/defining-templates). Helpers connect HTML with JS.
 
 #### Breakdown a template ####
+We're going to create a one page Meteor `app` to help us understand how the structure works
+
+##### HTML, CSS, JS goes where? #####
 * Create a new Meteor project, delete the files and create a `client` folder
 * Download an [agency template](http://ironsummitmedia.github.io/startbootstrap-agency/)
 * Add a bootstrap package and a font awesome package (to make things easier for us)
 * Break up each section into a separate template that's rendered in the body tag
 * Static resources (not CSS or HTML) go in the top level `/public` folder
+
+##### Using [helpers](http://docs.meteor.com/#/basic/Template-helpers) #####
+* Create a helper so that the header your a name instead of Our studio
+* Create an `isMorning` helper that returns `true` if it's the morning and `false` if it's the afternoon. Use it in an `{{#if}}` block to display good morning / good afternoon
+
+##### Using `{{#each}}` to loop #####
+* Use the `{{#each}}` helper to loop through X number of team members where each team member is represented by a JSON object
 
 #### Kokiri Forest ####
 Kokiri Forest is the first area in The Legend of Zelda: The Ocarina of Time. Your mission is to find a sword and a shield.
