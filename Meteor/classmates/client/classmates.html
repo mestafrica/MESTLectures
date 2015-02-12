@@ -12,20 +12,16 @@
 		<div class="col-md-12">
 			<h4>Classmates</h4>
 			<ul>
-				{{#each classmatesHelper}}
+				{{#each people}}
 				<li>
 					<img class="img-circle img-thumbnail" src="{{img}}" alt="">
-					<h5>{{name}}</h5>
-					<h4>{{age}}</h4>
+					<h5>{{this.name}}</h5>
+					<h4>{{this.age}}</h4>
 					{{> gender}}
-					
-					<ul>
+					<br/>
 					{{#each interests}}
-						<li class="label">
-							{{this}}
-						</li>
+						<span class="label label-{{this.class}}">{{this.name}}</span>
 					{{/each}}
-					</ul>
 
 				</li>
 				{{/each}}

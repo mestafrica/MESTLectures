@@ -5,35 +5,36 @@ people = [
     gender: 'male',
     img: 'http://mestghana.wpengine.com/wp-content/uploads/2015/01/ben_jones-194ac759dbfa749cb340ba9abfab1733-gray-160x160.jpg',
     interests: [
-      'Meteor',
-      'JavaScript',
-      'Being cool'
+      {
+        name: 'Facebook',
+        class: 'primary'
+      },
+      {
+        name: 'Twitter',
+        class: 'info'
+      },
+      {
+        name: 'Google Plus',
+        class: 'danger'
+      }
     ]
   },
   {
     name: 'Tolu',
     age: 27,
     gender: 'female',
-    img: 'http://mestghana.wpengine.com/wp-content/uploads/2014/10/Tolu-05a72dcde0ee41bb124edb4ec36cadb9-gray-160x160.png',
-    interests: [
-      'Business',
-      'Women in tech'
-    ]
+    img: 'http://mestghana.wpengine.com/wp-content/uploads/2014/10/Tolu-05a72dcde0ee41bb124edb4ec36cadb9-gray-160x160.png'
   },
   {
     name: 'Daisy',
     age: 27,
     gender: 'female',
-    img: 'http://mestghana.wpengine.com/wp-content/uploads/2014/07/MESTDaisyChang2-97b3ebb5ea9e3e7b817920a88423a02e-160x160.png',
-    interests: [
-      'MINC',
-      'Scottish dancing'
-    ]
+    img: 'http://mestghana.wpengine.com/wp-content/uploads/2014/07/MESTDaisyChang2-97b3ebb5ea9e3e7b817920a88423a02e-160x160.png'
   }
 ]
 
 Template.classmatesTemplate.helpers({
-  classmatesHelper: function () {
+  people: function () {
     return people;
   }
 });
