@@ -8,7 +8,7 @@ HTML is broken up into [templates](http://docs.meteor.com/#/basic/defining-templ
 ### My class ###
 
 #### 1.0 Create an array of objects representing class mates ####
-* Create a new project, delte the initial files and create a client folder and `main.html`,`main.css` and `main.js` files
+* Create a new project, delete the initial files and create a client folder and `main.html`,`main.css` and `main.js` files
 * Create an array of objects representing at least 5 classmates. Include name, age and gender
 * Cycle through using `{{#each}}`
 
