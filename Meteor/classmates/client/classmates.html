@@ -10,7 +10,10 @@
 <div class="container text-center">
 	<div class="row">
 		<div class="col-md-12">
-			<h4>Classmates</h4>
+			<h4 id="page-title">Classmates</h4>
+	
+			<input type="text" id="title">
+
 			<ul>
 				{{#each people}}
 				<li>
@@ -22,7 +25,9 @@
 					{{#each interests}}
 						<span class="label label-{{class}}">{{name}}</span>
 					{{/each}}
-
+					<br/>
+					<br/>
+					<button class="btn btn-primary btn-compliment"><i class="fa fa-heart-o"></i></button>
 				</li>
 				{{/each}}
 			</ul>

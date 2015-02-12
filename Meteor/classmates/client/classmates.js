@@ -46,3 +46,11 @@ Template.gender.helpers({
     }
   }
 });
+
+Template.classmatesTemplate.events({
+  'keydown #title': function (event,template) {
+  },
+  'click .btn-compliment': function (e,t){
+    $('body').addClass('love');
+  }
+});
