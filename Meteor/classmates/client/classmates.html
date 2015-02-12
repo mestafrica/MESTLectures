@@ -18,6 +18,15 @@
 					<h5>{{name}}</h5>
 					<h4>{{age}}</h4>
 					{{> gender}}
+					
+					<ul>
+					{{#each interests}}
+						<li class="label">
+							{{this}}
+						</li>
+					{{/each}}
+					</ul>
+
 				</li>
 				{{/each}}
 			</ul>
@@ -41,3 +50,4 @@
 <template name="female">
 	<i class="fa fa-female"></i> Is a girl
 </template>
+
