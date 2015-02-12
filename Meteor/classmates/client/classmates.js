@@ -48,7 +48,9 @@ Template.gender.helpers({
 });
 
 Template.classmatesTemplate.events({
-  'keydown #title': function (event,template) {
+  'keyup #title': function (event,template) {
+    var val = $(event.currentTarget).val();
+    $('#page-title').html(val);
   },
   'click .btn-compliment': function (e,t){
     $('body').addClass('love');
