@@ -15,12 +15,12 @@
 				{{#each people}}
 				<li>
 					<img class="img-circle img-thumbnail" src="{{img}}" alt="">
-					<h5>{{this.name}}</h5>
-					<h4>{{this.age}}</h4>
+					<h5>{{name}}</h5>
+					<h4>{{age}}</h4>
 					{{> gender}}
 					<br/>
 					{{#each interests}}
-						<span class="label label-{{this.class}}">{{this.name}}</span>
+						<span class="label label-{{class}}">{{name}}</span>
 					{{/each}}
 
 				</li>
