@@ -1,0 +1,43 @@
+<head>
+  <title>classmates</title>
+</head>
+
+<body>
+  {{> classmatesTemplate}}
+</body>
+
+<template name="classmatesTemplate">
+<div class="container text-center">
+	<div class="row">
+		<div class="col-md-12">
+			<h4>Classmates</h4>
+			<ul>
+				{{#each classmatesHelper}}
+				<li>
+					<img class="img-circle img-thumbnail" src="{{img}}" alt="">
+					<h5>{{name}}</h5>
+					<h4>{{age}}</h4>
+					{{> gender}}
+				</li>
+				{{/each}}
+			</ul>
+		</div>
+	</div>
+</div>
+</template>
+
+<template name="gender">
+	{{#if isMale gender}}
+		{{> male}}
+	{{else}}
+		{{> female}}
+	{{/if}}
+</template>
+
+<template name="male">
+	<i class="fa fa-male"></i> Is a boy
+</template>
+
+<template name="female">
+	<i class="fa fa-female"></i> Is a girl
+</template>
