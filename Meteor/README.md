@@ -17,8 +17,9 @@ HTML is broken up into [templates](http://docs.meteor.com/#/basic/defining-templ
 
 #### 1.2 {{#with}} myself ####
 * Create a `me` variable that's an object with some properties about yourself
-* Create a helper that return the 'you' object
+* Create a helper that return this object
 * Use `{{#with}}` to get insde that object and print out some properties
+* Add an array of `interests` to yourself and cycle through them with `{{#each}}`
 
 #### 1.3 Helper functions ####
 * Create a helper which accepts an argument. `isOver25 age` that returns true or false
