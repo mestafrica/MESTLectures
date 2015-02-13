@@ -1,0 +1,27 @@
+<head>
+    <title>things</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                {{> things}}
+            </div>
+        </div>
+    </div>
+</body>
+<template name="things">
+<h5 >Things I like about MEST</h5>
+<ul>
+    {{#each things}}
+    <li>{{name}}</li>
+    {{/each}}
+</ul>
+<p>
+<form>
+    <input type="text" class="form-control" id="" placeholder="What do you like?">
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</p>
+</template>
