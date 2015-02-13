@@ -9,7 +9,7 @@ li
 	margin-right: 2px;
 }
 
-body.love {
+.love {
 	-webkit-animation:rainbow 1s infinite;
 	-ms-animation:rainbow 1s infinite;
 	-o-animation:rainbow 1s infinite;

@@ -56,3 +56,12 @@ Template.classmatesTemplate.events({
     $('body').addClass('love');
   }
 });
+
+
+Template.registerHelper('isWinner',function(){
+  return Session.get('isWinner');
+})
+
+Template.registerHelper('playerName',function(){
+  return Session.get('playerName');
+})

@@ -3,14 +3,32 @@
 </head>
 
 <body>
-  {{> classmatesTemplate}}
+  <div id="wrap" class="{{#if isWinner}}love{{/if}}">
+  	{{> classmatesTemplate}}
+  </div>
 </body>
 
 <template name="classmatesTemplate">
 <div class="container text-center">
 	<div class="row">
 		<div class="col-md-12">
-			<h4 id="page-title">Classmates</h4>
+			
+			{{#if playerName}}
+				<h1>Hey, {{playerName}}</h1>
+			{{else}}
+				<h5>You haven't entered a name yet</h5>
+			{{/if}}
+
+			{{#if isWinner}}
+				<h4 id="page-title">
+					You won!
+				</h4>
+			{{else}}
+				<h4>You haven't won yet</h4>
+			{{/if}}
+
+
+
 	
 			<input type="text" id="title">
 
@@ -37,7 +55,7 @@
 </template>
 
 <template name="gender">
-	{{#if isMale gender}}
+ {{#if isMale gender}}
 		{{> male}}
 	{{else}}
 		{{> female}}
