@@ -24,3 +24,14 @@ HTML is broken up into [templates](http://docs.meteor.com/#/basic/defining-templ
 #### 1.3 Helper functions ####
 * Create a helper which accepts an argument. `isOver25 age` that returns true or false
 * Use `{{#if}}` and integrate your helper into the app
+
+#### 1.4 Temporary data: Using [Session](http://docs.meteor.com/#/basic/Session-get) ####
+* Create an input where you can type to change a session variable
+* Return the session variable as the page title
+* Create a switch to turn on off / rainbow colours using a `true` / `false` Session variable
+
+#### 1.5 [Collections](http://docs.meteor.com/#/basic/Mongo-Collection) ####
+* Create a new project with a `both` and a `client` folder
+* Create a `Questions` collection
+* Create a simple form with one input
+
