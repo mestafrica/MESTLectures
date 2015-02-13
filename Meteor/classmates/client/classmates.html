@@ -13,13 +13,13 @@
 	<div class="row">
 		<div class="col-md-12">
 			
-			{{#if playerName}}
-				<h1>Hey, {{playerName}}</h1>
+			{{#if $.Session.get 'playerName'}}
+				<h1>Hey, {{$.Session.get 'playerName'}}</h1>
 			{{else}}
 				<h5>You haven't entered a name yet</h5>
 			{{/if}}
 
-			{{#if isWinner}}
+			{{#if $.Session.get 'isWinner'}}
 				<h4 id="page-title">
 					You won!
 				</h4>
@@ -71,4 +71,3 @@
 <template name="female">
 	<i class="fa fa-female"></i> Is a girl
 </template>
-

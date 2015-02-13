@@ -1,3 +1,5 @@
+
+
 Template.classmatesTemplate.helpers({
   people: function () {
     return people;
@@ -26,12 +28,3 @@ Template.classmatesTemplate.events({
     Session.set('isWinner',isWinner);
   }
 });
-
-
-Template.registerHelper('isWinner',function(){
-  return Session.get('isWinner');
-})
-
-Template.registerHelper('playerName',function(){
-  return Session.get('playerName');
-})
