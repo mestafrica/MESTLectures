@@ -6,11 +6,15 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
-				<h3>Things I like about MEST</h3>
-				<hr/>
-				{{> form}}
-				<hr/>
-                {{> things}}
+            {{> loginButtons}}
+      				<h3>Things I like about MEST</h3>
+      				<hr/>
+
+              {{#if currentUser}}
+      				{{> form}}
+              {{/if}}
+      				<hr/>
+              {{> things}}
             </div>
         </div>
     </div>
@@ -38,6 +42,7 @@
           </div>
           <div class="post-title">
             <p>{{name}}</p>
+            <p><small><strong>posted by:</strong> {{> email}}</small></p>
           </div>
         
       </div>
@@ -55,6 +60,6 @@
 	</form>
 </template>
 
-<template name="ranking">
- 
+<template name="email">
+  {{userEmail}}
 </template>

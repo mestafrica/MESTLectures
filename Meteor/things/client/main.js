@@ -25,14 +25,12 @@ Template.form.events({
 
 		//Prevent page from reloading
 		e.preventDefault();
-
-		/*	var item = db.things.find().sort( { score : 1 } ).limit(1);
-			var item_score = item.score;
-			var count_items = db.things.find( { score: { $gt: item_score } } ).count();*/
+		var currentUserId = Meteor.userId();
 
 		thing = {
 			name: $('input').val(),
-			score: 0
+			score: 0,
+			createdBy: currentUserId
 		}
 
 		//Check that 'name' is not an empty string
@@ -44,5 +42,12 @@ Template.form.events({
 
 		//reset form
 		$('input[type=text]').val('');
+	}
+});
+
+Template.email.helpers({
+	userEmail: function(){
+		var user = Meteor.user();
+		return user.emails[0].address;
 	}
 });
