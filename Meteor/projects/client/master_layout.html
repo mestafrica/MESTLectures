@@ -1,14 +1,13 @@
 <template name="masterLayout">
 {{> navbar}}
+
 {{> yield}}
+
+{{> footer}}
 </template>
 
 <template name="navbar">
 <nav class="navbar navbar-default" role="navigation">
-    <div class="navbar-header">
-        <a class="navbar-brand" href="{{pathFor 'home'}}">Projects</a>
-    </div>
-
     <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav navbar-right">
             <li>
@@ -23,4 +22,10 @@
         </ul>
     </div>
 </nav>
+</template>
+
+<template name="footer">
+	<footer>
+		<h4>I am footer!</h4>
+	</footer>
 </template>
