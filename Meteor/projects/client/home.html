@@ -1,8 +1,4 @@
-<head>
-    <title>MEST Projects</title>
-</head>
-
-<body>
+<template name="home">
     <div class="container text-center">
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
@@ -10,11 +6,13 @@
 				<hr/>
 				{{> quickForm collection="Projects" id="insertProject" type="insert"}}
 				<hr/>
+				
+				<hr/>
                 {{> projects}}
             </div>
         </div>
     </div>
-</body>
+</template>
 
 <template name="projects">
 	<ul>

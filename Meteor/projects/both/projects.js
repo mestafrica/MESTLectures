@@ -1,4 +1,5 @@
 Projects = new Mongo.Collection('projects');
+
 Projects.attachSchema(new SimpleSchema({
     title: {
         type: String,

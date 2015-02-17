@@ -1,0 +1,23 @@
+<template name="masterLayout">
+{{> navbar}}
+{{> yield}}
+</template>
+
+<template name="navbar">
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="{{pathFor 'home'}}">Projects</a>
+    </div>
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="{{pathFor 'home'}}">Home</a>
+            </li>
+            <li>
+                <a href="{{pathFor 'about'}}">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</template>
