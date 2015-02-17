@@ -1,0 +1,14 @@
+<template name="projects">
+	<ul>
+	    {{#each projects}}
+
+	    <li>{{title}}</li>
+		
+		{{else}}
+		
+		<!-- You can use {{else}} to handle an empty array-->
+		<li>No projects yet</li>
+
+	    {{/each}}
+	</ul>
+</template>
