@@ -9,6 +9,12 @@ Router.route('/', function () {
   name: 'home'
 });
 
+Router.route('/projects', function () {
+  this.render('projects');
+}, {
+  name: 'projects'
+});
+
 Router.route('/about', function () {
   this.render('about');
 }, {

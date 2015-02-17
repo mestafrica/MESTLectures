@@ -3,39 +3,8 @@
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
 				<h3>MEST Jobs</h3>
-				<hr/>
 				{{> quickForm collection="Projects" id="insertProject" type="insert"}}
-				<hr/>
-				
-				<hr/>
-                {{> projects}}
             </div>
         </div>
     </div>
-</template>
-
-<template name="projects">
-	<ul>
-	    {{#each projects}}
-
-	    <li>{{title}}</li>
-		
-		{{else}}
-		
-		<!-- You can use {{else}} to handle an empty array-->
-		<li>No projects yet</li>
-
-	    {{/each}}
-	</ul>
-</template>
-
-<template name="form">
-	<form>
-	   <div class="input-group">
-	   	<input type="text" class="form-control" id="" placeholder="What do you like about MEST?">
-	   	<div class="input-group-btn">
-	   		<button type="submit" class="btn btn-default">Add</button>
-	   	</div>
-	   </div>
-	</form>
 </template>
