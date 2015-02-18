@@ -11,3 +11,7 @@ mizzao:bootstrap-3
 aldeed:autoform
 aldeed:collection2
 iron:router
+accounts-base
+accounts-password
+accounts-facebook
+ian:accounts-ui-bootstrap-3

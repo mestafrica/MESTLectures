@@ -3,7 +3,14 @@
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
 				<h3>MEST Jobs</h3>
-				{{> quickForm collection="Projects" id="insertProject" type="insert"}}
+
+				{{#if currentUser}}
+					{{> quickForm collection="Projects" id="insertProject" type="insert"}}
+				{{else}}
+					<p class="text-center">
+						Sorry, you need to be logged in!
+					</p>
+				{{/if}}
             </div>
         </div>
     </div>
