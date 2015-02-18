@@ -35,3 +35,16 @@ HTML is broken up into [templates](http://docs.meteor.com/#/basic/defining-templ
 * Create a `Questions` collection
 * Create a simple form with one input
 
+### 2.0 User accounts ###
+`meteor add accounts-base`
+
+
+Allows signup with email/password `meteor add accounts-password`
+
+Signup with facebook `meteor add accounts-facebook`
+
+Provides a template `ian:accounts-ui-bootstrap-3`. Add `{{> loginButtons}}` to your app.
+
+OR
+
+Adds signup pages `joshowens:accounts-entry`
