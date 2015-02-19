@@ -15,32 +15,16 @@ Projects.attachSchema(new SimpleSchema({
             rows: 5
         }
     },
-    contact: {
+    category: {
         type: String,
-        regEx: SimpleSchema.RegEx.Email,
-        label: "Contact Email"
-    },
-    payment: {
-        type: Number,
-        label: "Payment",
-        min: 0
-    },
-    paymentType: {
-        type: String,
-        label: "Payment Type",
         autoform: {
-            options: [{
-                label: "Hourly",
-                value: "hourly"
-            }, {
-                label: "Whole thing",
-                value: "project"
-            }]
+            options: function(){
+                return [
+                    {value: 'html', label: 'HTML'},
+                    {value: 'javascript', label: 'JavaScript'},
+                    {value: 'css', label: 'CSS'}
+                ]
+            }
         }
-    },
-    dueDate: {
-        type: Date,
-        label: "Due by",
-        optional: true
     }
 }));

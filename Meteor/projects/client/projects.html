@@ -1,4 +1,18 @@
 <template name="projects">
+	<h1>{{pageTitle}}</h1>
+	
+	<p>
+		<a href="{{pathFor 'home'}}" class="btn btn-default"><i class="fa fa-plus"></i> Create project</a>
+
+		<a href="{{pathFor 'projects'}}" class="btn btn-danger">All projects</a>
+
+		<a href="{{pathFor 'projectsCategory' category='html'}}" class="btn btn-primary">HTML</a>
+
+		<a href="{{pathFor 'projectsCategory' category='javascript'}}" class="btn btn-success">JavaScript</a>
+
+		<a href="{{pathFor 'projectsCategory' category='css'}}" class="btn btn-info">Css</a>
+	</p>
+
 	<ul>
 	    {{#each projects}}
 
