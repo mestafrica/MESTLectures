@@ -15,21 +15,21 @@ Router.route('/projects', function () {
 }, {
   name: 'projects',
 
-  data: function() {
-  	return {
-  		projects: Projects.find().fetch(),
+  data: function() {                // Data context for the route. Allows properties of retuned
+  	return {                        // objects to be rendered in tempate e.g. {{pageTitle}}
+  		projects: Projects.find().fetch(), 
   		pageTitle: 'This is my project page'
   	}
   }
 });
 
 Router.route('/projects/:category/', function(){
-	this.render('projects');
+	this.render('projects');          // Render the same template as '/projects' route
 }, {
 	name: 'projectsCategory',
 
 	data: function(){
-		return {
+		return {                        // Return only documents with the category in the parameters
 			projects: Projects.find({category: this.params.category}).fetch(),
 			pageTitle: 'Category: ' + this.params.category
 		}
