@@ -47,4 +47,12 @@ Provides a template `ian:accounts-ui-bootstrap-3`. Add `{{> loginButtons}}` to y
 
 OR
 
-Adds signup pages `joshowens:accounts-entry`
+Adds signup pages `useraccounts:semantic-ui`
+
+### 3.0 Jobs board ###
+Create a jobs board with the following functionality:
+* Sign up / in / out
+* Only signed in users can post a job
+* Filter jobs by categories
+* Users can edit / delete their own jobs
+
