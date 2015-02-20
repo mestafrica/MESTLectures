@@ -36,7 +36,19 @@ Router.route('/projects/:category/', function(){
 	}
 })
 
+Router.route('/projects/details/:_id', function(){
+  this.render('projectDetail');
+},{
+  name: 'projectDetail',
 
+  data: function(){
+    var _id = this.params._id;
+
+    return {
+      project: Projects.findOne(_id)
+    }
+  }
+})
 
 Router.route('/about', function () {
   this.render('about');
