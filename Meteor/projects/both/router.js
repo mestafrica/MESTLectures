@@ -36,6 +36,8 @@ Router.route('/projects/:category/', function(){
 	}
 })
 
+
+
 Router.route('/about', function () {
   this.render('about');
 }, {
