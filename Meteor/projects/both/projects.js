@@ -26,5 +26,11 @@ Projects.attachSchema(new SimpleSchema({
                 ]
             }
         }
+    },
+    owner: {
+        type: String,
+        autoform: {
+            omit: true
+        }
     }
 }));
