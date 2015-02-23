@@ -31,6 +31,9 @@ Projects.attachSchema(new SimpleSchema({
         type: String,
         autoform: {
             omit: true
+        },
+        autoValue: function(){
+            return Meteor.userId();
         }
     }
 }));
