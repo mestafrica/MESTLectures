@@ -32,7 +32,7 @@
                 <div class="panel-footer">
                     <a href="{{pathFor 'projectDetail' _id=_id}}" class="btn btn-primary">Read more</a>
                     {{#if $eq owner User._id}}
-                	<a href="" class="btn btn-default pull-right"><i class="fa fa-pencil"></i></a>
+                	<a href="{{pathFor 'editProject' _id=_id}}" class="btn btn-default pull-right"><i class="fa fa-pencil"></i></a>
                     {{/if}}
 
                 </div>

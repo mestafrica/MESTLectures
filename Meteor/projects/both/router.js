@@ -50,6 +50,19 @@ Router.route('/projects/details/:_id', function(){
   }
 })
 
+Router.route('/projects/:_id/edit',function(){
+  this.render('editProject');
+},{
+  name: 'editProject',
+  data: function(){
+    var _id = this.params._id;
+    return {
+      project: Projects.findOne(_id)
+    }
+  }
+})
+
+
 Router.route('/about', function () {
   this.render('about');
 }, {
