@@ -15,3 +15,5 @@ accounts-base
 accounts-password
 accounts-facebook
 ian:accounts-ui-bootstrap-3
+fortawesome:fontawesome
+raix:handlebar-helpers
