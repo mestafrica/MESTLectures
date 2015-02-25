@@ -3,4 +3,15 @@
 	<p>
 		{{project.summary}}
 	</p>
+	<hr/>
+	<h4>Apply for this job</h4>
+	{{> quickForm id="insertApplication" collection="Applications" type="insert"}}
+	<hr/>
+	{{#each applications}}
+	<div class="panel panel-default">
+		<div class="panel-body">
+			{{description}}
+		</div>
+	</div>
+	{{/each}}
 </template>

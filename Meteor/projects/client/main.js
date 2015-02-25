@@ -1,3 +1,5 @@
-// Template.registerHelper('projects',function(){
-// 	return Projects.find().fetch();
-// })
+  AutoForm.addHooks(null, {
+    onError: function (operation, error, template) {
+      console.log('Error: ' + error);
+    }
+  });

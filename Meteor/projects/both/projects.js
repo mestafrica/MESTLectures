@@ -33,7 +33,9 @@ Projects.attachSchema(new SimpleSchema({
             omit: true
         },
         autoValue: function(){
-            return Meteor.userId();
+            if (this.isInsert){
+                return Meteor.userId();
+            }
         }
     }
 }));

@@ -45,7 +45,8 @@ Router.route('/projects/details/:_id', function(){
     var _id = this.params._id;
 
     return {
-      project: Projects.findOne(_id)
+      project: Projects.findOne(_id),
+      applications: Applications.find({project: _id}).fetch()
     }
   }
 })
