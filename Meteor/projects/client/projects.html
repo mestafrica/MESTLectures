@@ -1,5 +1,20 @@
 <template name="projects">
 <div class="container">
+
+    {{> projectsNavbar}}
+
+    <div class="row">
+        {{#each projects}}
+            {{> project}}
+        {{else}}
+        <!-- You can use {{else}} to handle an empty array-->
+        <p>No projects yet</p>
+        {{/each}}
+    </div>
+</div>
+</template>
+
+<template name="projectsNavbar">
     <div class="row">
         <div class="col-sm-12">
             <h1>{{pageTitle}}</h1>
@@ -16,32 +31,4 @@
             </p>
         </div>
     </div>
-    <div class="row">
-        {{#each projects}}
-        <div class="col-sm-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    {{title}}
-                </div>
-                <div class="panel-body">
-                    {{summary}}
-                    <br/>
-                    <br/>
-                    <span class="label label-default">{{category}}</span>
-                </div>
-                <div class="panel-footer">
-                    <a href="{{pathFor 'projectDetail' _id=_id}}" class="btn btn-primary">Read more</a>
-                    {{#if $eq owner User._id}}
-                	<a href="{{pathFor 'editProject' _id=_id}}" class="btn btn-default pull-right"><i class="fa fa-pencil"></i></a>
-                    {{/if}}
-
-                </div>
-            </div>
-        </div>
-        {{else}}
-        <!-- You can use {{else}} to handle an empty array-->
-        <p>No projects yet</p>
-        {{/each}}
-    </div>
-</div>
 </template>

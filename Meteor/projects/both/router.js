@@ -63,6 +63,17 @@ Router.route('/projects/:_id/edit',function(){
   }
 })
 
+Router.route('/dashboard', function(){
+  this.render('dashboard');
+},{
+  name: 'dashboard',
+  data: function(){
+    return {
+      projects: Projects.find({owner: Meteor.userId()}).fetch()
+    }
+  }
+})
+
 
 Router.route('/about', function () {
   this.render('about');
