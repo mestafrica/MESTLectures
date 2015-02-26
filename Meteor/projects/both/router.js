@@ -68,8 +68,10 @@ Router.route('/dashboard', function(){
 },{
   name: 'dashboard',
   data: function(){
-    return {
-      projects: Projects.find({owner: Meteor.userId()}).fetch()
+    if (Meteor.userId()){
+      return {
+        projects: Projects.find({owner: Meteor.userId()}).fetch()
+      }
     }
   }
 })
