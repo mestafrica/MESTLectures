@@ -1,3 +1,15 @@
 <template name="dashboard">
-	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{#each projects}}
+					{{> project}}
+				{{else}}
+				<p class="text-center">
+					You haven't created any jobs yet
+				</p>
+				{{/each}}
+			</div>
+		</div>
+	</div>
 </template>
