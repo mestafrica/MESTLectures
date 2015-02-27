@@ -21,3 +21,4 @@ cfs:standard-packages
 cfs:gridfs
 yogiben:autoform-file
 cfs:ui
+coffeescript
