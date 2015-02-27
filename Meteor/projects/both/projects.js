@@ -1,5 +1,4 @@
 Projects = new Mongo.Collection('projects');
-
 Projects.attachSchema(new SimpleSchema({
     title: {
         type: String,
@@ -18,22 +17,37 @@ Projects.attachSchema(new SimpleSchema({
     category: {
         type: String,
         autoform: {
-            options: function(){
-                return [
-                    {value: 'html', label: 'HTML'},
-                    {value: 'javascript', label: 'JavaScript'},
-                    {value: 'css', label: 'CSS'}
-                ]
+            options: function() {
+                return [{
+                    value: 'html',
+                    label: 'HTML'
+                }, {
+                    value: 'javascript',
+                    label: 'JavaScript'
+                }, {
+                    value: 'css',
+                    label: 'CSS'
+                }]
             }
         }
+    },
+    picture: {
+        type: String,
+        autoform: {
+            afFieldInput: {
+                type: 'fileUpload',
+                collection: 'Images'
+            }
+        },
+        label: 'Choose file'
     },
     owner: {
         type: String,
         autoform: {
             omit: true
         },
-        autoValue: function(){
-            if (this.isInsert){
+        autoValue: function() {
+            if (this.isInsert) {
                 return Meteor.userId();
             }
         }

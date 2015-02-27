@@ -17,3 +17,7 @@ accounts-facebook
 ian:accounts-ui-bootstrap-3
 fortawesome:fontawesome
 raix:handlebar-helpers
+cfs:standard-packages
+cfs:gridfs
+yogiben:autoform-file
+cfs:ui

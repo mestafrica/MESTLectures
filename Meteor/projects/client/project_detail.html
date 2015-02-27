@@ -1,8 +1,12 @@
 <template name="projectDetail">
-	<h1>{{project.title}}</h1>
+
+	{{#with project}}
+	<h1>{{title}}</h1>
 	<p>
-		{{project.summary}}
+		{{summary}}
 	</p>
+	{{/with}}
+
 	<hr/>
 	<h4>Apply for this job</h4>
 	{{> quickForm id="insertApplication" collection="Applications" type="insert"}}

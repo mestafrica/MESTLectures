@@ -6,6 +6,11 @@
 	        </div>
 	        <div class="panel-body">
 	            {{summary}}
+				
+				{{#with FS.GetFile 'images' picture}}
+					<img class="img-thumbnail img-circle" src="{{url}}" alt="">
+				{{/with}}
+
 	            <br/>
 	            <br/>
 	            <span class="label label-default">{{category}}</span>
