@@ -56,3 +56,9 @@ Create a jobs board with the following functionality:
 * Filter jobs by categories
 * Users can edit / delete their own jobs
 
+### 4.0 Image upload ###
+* `meteor add cfs:standard-packages`
+* `meteor add cfs:gridfs`
+* `meteor add yogiben:autoform-file`
+* Create your collectionFS as per step 2 of [yogiben:autoform-file](https://github.com/yogiben/meteor-autoform-file)
+* Update your schemas as per step 4 of [yogiben:autoform-file](https://github.com/yogiben/meteor-autoform-file)
