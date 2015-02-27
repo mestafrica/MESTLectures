@@ -56,3 +56,8 @@ Create a jobs board with the following functionality:
 * Filter jobs by categories
 * Users can edit / delete their own jobs
 
+### 4.0 Image upload ###
+* `meteor add cfs:standard-packages`
+* `meteor add cfs:gridfs`
+* `meteor add yogiben:file-upload`
+* Update your schemas as per step 4 of [yogiben:file-upload](https://github.com/yogiben/meteor-autoform-file)
