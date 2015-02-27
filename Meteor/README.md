@@ -60,4 +60,5 @@ Create a jobs board with the following functionality:
 * `meteor add cfs:standard-packages`
 * `meteor add cfs:gridfs`
 * `meteor add yogiben:file-upload`
+* Create your collectionFS as per step 2 of [yogiben:file-upload](https://github.com/yogiben/meteor-autoform-file)
 * Update your schemas as per step 4 of [yogiben:file-upload](https://github.com/yogiben/meteor-autoform-file)
