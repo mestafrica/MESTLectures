@@ -20,6 +20,20 @@ Projects.allow({
 	}
 });
 
+Applications.allow({
+	insert: function (userId, doc) {
+		if (userId){
+			return true;
+		}
+	},
+	update: function (userId, doc, fields, modifier) {
+		return false;
+	},
+	remove: function (userId, doc) {
+		return false;
+	}
+});
+
 Images.allow({
 	insert: function (userId, doc) {
 		return true;
