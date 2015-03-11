@@ -28,19 +28,6 @@ Projects.attachSchema new SimpleSchema(
           label: 'CSS'
         }
       ]
-  picture:
-    type: String
-    autoform: afFieldInput:
-      type: 'fileUpload'
-      collection: 'Images'
-    label: 'Choose file'
-  owner:
-    type: String
-    autoform: omit: true
-    autoValue: ->
-      if @isInsert
-        return Meteor.userId()
-      return
 )
 
 # ---
