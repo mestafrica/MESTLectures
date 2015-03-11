@@ -19,3 +19,18 @@ Projects.allow({
 		}
 	}
 });
+
+Images.allow({
+	insert: function (userId, doc) {
+		return true;
+	},
+	update: function (userId, doc, fields, modifier) {
+		return true;
+	},
+	remove: function (userId, doc) {
+		return true;
+	},
+	download: function () {
+		return true;
+	}
+});
