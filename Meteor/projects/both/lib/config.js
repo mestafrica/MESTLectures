@@ -15,6 +15,11 @@ Config = {
 			label: 'CSS',
 			value: 'css',
 			btnClass: 'info'
+		},
+		{
+			label: 'CoffeeScript',
+			value: 'coffeescript',
+			btnClass: 'warning'
 		}
 	]
 }

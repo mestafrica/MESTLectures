@@ -14,20 +14,7 @@ Projects.attachSchema new SimpleSchema(
   category:
     type: String
     autoform: options: ->
-      [
-        {
-          value: 'html'
-          label: 'HTML'
-        }
-        {
-          value: 'javascript'
-          label: 'JavaScript'
-        }
-        {
-          value: 'css'
-          label: 'CSS'
-        }
-      ]
+      Config.categories
   owner:
     type: String
     autoform: omit: true
