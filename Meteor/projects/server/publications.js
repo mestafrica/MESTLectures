@@ -2,6 +2,10 @@ Meteor.publish('projects',function(){
 	return Projects.find();
 })
 
+Meteor.publish('projectsByCategory',function(category){
+	return Projects.find({category:category})
+})
+
 Meteor.publish('singleProject',function(_id){
 	return Projects.find({_id:_id})
 })
