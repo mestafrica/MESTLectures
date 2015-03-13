@@ -35,13 +35,12 @@ Router.route('/projects/:category/', function(){
 	name: 'projectsCategory',
 
   waitOn: function(){
-    var category = this.params.category;
-    return Meteor.subscribe('projectsByCategory',category);
+    return Meteor.subscribe('projects');
   },
 
 	data: function(){
 		return {                        // Return only documents with the category in the parameters
-			projects: Projects.find().fetch(),
+			projects: Projects.find({category:this.params.category}).fetch(),
 			pageTitle: 'Category: ' + this.params.category
 		}
 	}
