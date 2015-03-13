@@ -23,11 +23,23 @@
 
             <a href="{{pathFor 'projects'}}" class="btn btn-danger">All projects</a>
 
-            <a href="{{pathFor 'projectsCategory' category='html'}}" class="btn btn-primary">HTML</a>
+            <a href="{{pathFor 'projectsCategory' category='html'}}" class="btn btn-primary">
+                HTML
+                -
+                {{categoryCount 'html'}}
+            </a>
 
-            <a href="{{pathFor 'projectsCategory' category='javascript'}}" class="btn btn-success">JavaScript</a>
+            <a href="{{pathFor 'projectsCategory' category='javascript'}}" class="btn btn-success">
+            JavaScript
+            -
+            {{categoryCount 'javascript'}}
+            </a>
 
-            <a href="{{pathFor 'projectsCategory' category='css'}}" class="btn btn-info">Css</a>
+            <a href="{{pathFor 'projectsCategory' category='css'}}" class="btn btn-info">
+                Css
+                -
+                {{categoryCount 'css'}}
+            </a>
             </p>
         </div>
     </div>
