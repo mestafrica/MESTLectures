@@ -85,6 +85,9 @@ Router.route('/dashboard', function(){
   this.render('dashboard');
 },{
   name: 'dashboard',
+  waitOn: function(){
+    return Meteor.subscribe('myProjects');
+  },
   data: function(){
     if (Meteor.userId()){
       return {

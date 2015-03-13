@@ -27,3 +27,7 @@ Meteor.publish('applicationsByProject',function(_id){
 Meteor.publish('myApplications',function(){
 	return Applications.find({owner: this.userId});
 })
+
+Meteor.publish('myProjects',function(){
+	return Projects.find({owner:this.userId})
+})
