@@ -6,3 +6,6 @@ Template.registerHelper 'ownProjectsCount', ->
 
 Template.registerHelper 'categoryCount', (category)->
 	Projects.find({category:category}).count()
+
+Template.registerHelper 'Config', ->
+	Config
