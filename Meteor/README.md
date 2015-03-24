@@ -1,6 +1,12 @@
 ### Meteor ###
 
-List of learning resources: http://learn.meteorfactory.io/meteor-learning-resources/
+#### Sponsored Resources ####
+[Discover Meteor eBook](http://discovermeteor.com)
+[Meteor Testing Manual](http://meteortesting.com)
+[Modulus.io Hosting Credits](http://modulus.io)
+Video tutorials - Available via DropBox
+
+List of additional learning resources: http://learn.meteorfactory.io/meteor-learning-resources/
 
 ### [Templates and Helpers](https://book.discovermeteor.com/chapter/templates) ###
 HTML is broken up into [templates](http://docs.meteor.com/#/basic/defining-templates). Helpers connect HTML with JS.
