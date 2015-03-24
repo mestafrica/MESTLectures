@@ -2,8 +2,11 @@
 
 #### Sponsored Resources ####
 [Discover Meteor eBook](http://discovermeteor.com)
+
 [Meteor Testing Manual](http://meteortesting.com)
+
 [Modulus.io Hosting Credits](http://modulus.io)
+
 Video tutorials - Available via DropBox
 
 List of additional learning resources: http://learn.meteorfactory.io/meteor-learning-resources/
