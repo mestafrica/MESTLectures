@@ -1,10 +1,13 @@
 AutoForm.hooks({
   insertApplication: {
     formToDoc: function(doc, ss, formId) {
-      console.log(doc);
       doc.project = Router.current().params._id;
-      console.log(doc);
       return doc;
+    },
+    onSuccess: function(operation, result, template) {
+    	//_id of newly created Applications document
+    	var _id = result;
+    	Meteor.call('sendApplicationNotification',_id);
     }
   }
 });

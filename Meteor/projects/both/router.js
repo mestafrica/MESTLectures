@@ -15,6 +15,12 @@ Router.route('/projects', function () {
 }, {
   name: 'projects',
 
+  waitOn: function(){
+    return [
+      Meteor.subscribe('projects')
+    ]
+  },
+
   data: function() {                // Data context for the route. Allows properties of retuned
   	return {                        // objects to be rendered in tempate e.g. {{pageTitle}}
   		projects: Projects.find().fetch(), 
@@ -28,9 +34,14 @@ Router.route('/projects/:category/', function(){
 }, {
 	name: 'projectsCategory',
 
+  waitOn: function(){
+    var category = this.params.category;
+    return Meteor.subscribe('projectsByCategory',category);
+  },
+
 	data: function(){
 		return {                        // Return only documents with the category in the parameters
-			projects: Projects.find({category: this.params.category}).fetch(),
+			projects: Projects.find().fetch(),
 			pageTitle: 'Category: ' + this.params.category
 		}
 	}
@@ -40,6 +51,14 @@ Router.route('/projects/details/:_id', function(){
   this.render('projectDetail');
 },{
   name: 'projectDetail',
+
+  waitOn: function(){
+    var _id = this.params._id;
+    return [
+      Meteor.subscribe('singleProject',_id),
+      Meteor.subscribe('applicationsByProject',_id)
+    ]
+  },
 
   data: function(){
     var _id = this.params._id;

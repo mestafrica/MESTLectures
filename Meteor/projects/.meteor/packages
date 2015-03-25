@@ -5,8 +5,6 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
 mizzao:bootstrap-3
 aldeed:autoform
 aldeed:collection2
@@ -22,3 +20,4 @@ cfs:gridfs
 yogiben:autoform-file
 cfs:ui
 coffeescript
+email
