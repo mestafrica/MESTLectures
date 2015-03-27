@@ -1,4 +1,5 @@
 ### Meteor ###
+This readme contains a number of exercises that the 2016s did in class.
 
 #### Sponsored Resources ####
 [Discover Meteor eBook](http://discovermeteor.com)
@@ -71,3 +72,14 @@ Create a jobs board with the following functionality:
 * `meteor add yogiben:autoform-file`
 * Create your collectionFS as per step 2 of [yogiben:autoform-file](https://github.com/yogiben/meteor-autoform-file)
 * Update your schemas as per step 4 of [yogiben:autoform-file](https://github.com/yogiben/meteor-autoform-file)
+
+## Testing ##
+Velocity is the middle-man between your Testing Framework (e.g. Mocha) and your Meteor App
+
+READ: http://www.meteortesting.com/chapter/test-first-techniques
+READ and DO EXAMPLE: http://www.meteortesting.com/chapter/velocity
+
+CLONE & RUN ‘leaderboard-mocha’ https://github.com/meteor-velocity/velocity-examples
+
+ADD FEATURE button to reduce score by 5
+ADD TEST for above feature
