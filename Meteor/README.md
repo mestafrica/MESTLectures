@@ -8,7 +8,7 @@ This readme contains a number of exercises that the 2016s did in class.
 
 [Modulus.io Hosting Credits](http://modulus.io)
 
-Video tutorials from Josh Owens - Search `fJEAGJM4XJ5VxhrKUPjh` in your inbox
+Video tutorials from Josh Owens - Search `fJEAGJM4XJ5VxhrKUPjh` in your Gmail inbox
 
 List of additional learning resources: http://learn.meteorfactory.io/meteor-learning-resources/
 
