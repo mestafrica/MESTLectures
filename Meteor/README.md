@@ -6,7 +6,7 @@ This readme contains a number of exercises that the 2016s did in class.
 
 [Meteor Testing Manual](http://meteortesting.com)
 
-[Modulus.io Hosting Credits](http://modulus.io)
+[Modulus.io Hosting Credits](http://modulus.io) - Search `7ro6TQ3vg7N3uRVY9aAd` in your Gmail inbox
 
 Video tutorials from Josh Owens - Search `fJEAGJM4XJ5VxhrKUPjh` in your Gmail inbox
 
