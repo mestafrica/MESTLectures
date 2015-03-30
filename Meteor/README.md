@@ -1,6 +1,16 @@
 ### Meteor ###
+This readme contains a number of exercises that the 2016s did in class.
 
-List of learning resources: http://learn.meteorfactory.io/meteor-learning-resources/
+#### Sponsored Resources ####
+[Discover Meteor eBook](http://discovermeteor.com)
+
+[Meteor Testing Manual](http://meteortesting.com)
+
+[Modulus.io Hosting Credits](http://modulus.io) - Search `7ro6TQ3vg7N3uRVY9aAd` in your Gmail inbox
+
+Video tutorials from Josh Owens - Search `fJEAGJM4XJ5VxhrKUPjh` in your Gmail inbox
+
+List of additional learning resources: http://learn.meteorfactory.io/meteor-learning-resources/
 
 ### [Templates and Helpers](https://book.discovermeteor.com/chapter/templates) ###
 HTML is broken up into [templates](http://docs.meteor.com/#/basic/defining-templates). Helpers connect HTML with JS.
@@ -62,3 +72,14 @@ Create a jobs board with the following functionality:
 * `meteor add yogiben:autoform-file`
 * Create your collectionFS as per step 2 of [yogiben:autoform-file](https://github.com/yogiben/meteor-autoform-file)
 * Update your schemas as per step 4 of [yogiben:autoform-file](https://github.com/yogiben/meteor-autoform-file)
+
+## Testing ##
+Velocity is the middle-man between your Testing Framework (e.g. Mocha) and your Meteor App
+
+READ: http://www.meteortesting.com/chapter/test-first-techniques
+READ and DO EXAMPLE: http://www.meteortesting.com/chapter/velocity
+
+CLONE & RUN ‘leaderboard-mocha’ https://github.com/meteor-velocity/velocity-examples
+
+ADD FEATURE button to reduce score by 5
+ADD TEST for above feature
