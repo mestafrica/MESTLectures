@@ -1,7 +1,8 @@
 Router.configure({
   layoutTemplate: "masterLayout",
   routeControllerNameConverter: "camelCase",
-  notFoundTemplate: '404'
+  notFoundTemplate: '404',
+  trackPageView: true
 })
 
 Router.route('/', function () {      // Route is the path after the url
