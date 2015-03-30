@@ -32,11 +32,10 @@ An overview of the topics that will be covered for the Software Development lect
 * Introduction to JavaScript & jQuery
 * Software Development Best Practices Overview
 * MeteorJS
-* Server Architecture, Configuration and Administration
 * Code Design and Best Practices
+* Front-End MVC Frameworks: Angular
 * Mobile Development
-* Front-End MVC Frameworks
-* UI/UX
+* Server Architecture, Configuration and Administration
 
 ## Homework/Projects
 
