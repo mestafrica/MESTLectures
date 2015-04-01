@@ -2,6 +2,9 @@
 
 See this for information about all Software Development course lectures  taught at [Meltwater Entrepreneurial School of Technology](http://www.meltwater.org) for the 2014-2015 academic year.
 
+## Using these resources
+*Click on an a folder* above to see more information about that learning area.
+
 ## Instructors
 * [Akshaya Acharya](https://github.com/akshaya7)
 * [Ben Jones](https://github.com/yogiben)
