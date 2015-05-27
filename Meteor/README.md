@@ -89,7 +89,20 @@ Meteor uses [Cordova](https://cordova.apache.org/) to build hybrid mobile apps.
 
 [Simple examples of apps](https://github.com/meteor/mobile-packages)
 
-### Using Ionic ###
+### Turning your app into meteor app ###
+Go to any meteor project or create one
+
+e.g. `meteor create --example todos` 
+
+Set up mobile: `meteor add-platform android` / `meteor add-platform ios`
+
+Run on emulator: `meteor run android` / `meteor run ios`
+
+Run on device: `meteor run android-device` / `meteor run ios-device`
+
+[Really good notes](https://github.com/Differential/meteor-mobile-cookbook)
+
+### Using [Ionic](http://ionicframework.com/) ###
 [Project and docs](https://github.com/meteoric/meteor-ionic)
 
 [Compontents](http://meteor-ionic.meteor.com/)
