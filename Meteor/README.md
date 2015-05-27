@@ -100,11 +100,13 @@ Run on emulator: `meteor run android` / `meteor run ios`
 
 Run on device: `meteor run android-device` / `meteor run ios-device`
 
-[Really good notes](https://github.com/Differential/meteor-mobile-cookbook)
+[Really good notes on meteor + mobile](https://github.com/Differential/meteor-mobile-cookbook)
 
 ### Using [Ionic](http://ionicframework.com/) ###
-[Project and docs](https://github.com/meteoric/meteor-ionic)
+Ionic is arguably the most polished hybrid mobile framework.
 
-[Compontents](http://meteor-ionic.meteor.com/)
+Combining Meteor + Ionic: [Project and docs](https://github.com/meteoric/meteor-ionic)
 
-[Product hunt clone](http://meteorhunt.meteor.com/products/XEHdH3ccQv7PfmyZo)
+[Ionic compontents](http://meteor-ionic.meteor.com/)
+
+Example app: [Product hunt clone](http://meteorhunt.meteor.com/products/XEHdH3ccQv7PfmyZo)
