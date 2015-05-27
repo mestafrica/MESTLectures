@@ -83,3 +83,15 @@ CLONE & RUN ‘leaderboard-mocha’ https://github.com/meteor-velocity/velocity-
 
 ADD FEATURE button to reduce score by 5
 ADD TEST for above feature
+
+## Mobile ##
+Meteor uses [Cordova](https://cordova.apache.org/) to build hybrid mobile apps.
+
+Examples: `https://github.com/meteor/mobile-packages`
+
+### Using Ionic ###
+[Project and docs](https://github.com/meteoric/meteor-ionic)
+
+[Compontents](http://meteor-ionic.meteor.com/)
+
+[Product hunt clone](http://meteorhunt.meteor.com/products/XEHdH3ccQv7PfmyZo)
