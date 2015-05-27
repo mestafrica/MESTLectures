@@ -87,7 +87,7 @@ ADD TEST for above feature
 ## Mobile ##
 Meteor uses [Cordova](https://cordova.apache.org/) to build hybrid mobile apps.
 
-Examples: `https://github.com/meteor/mobile-packages`
+[Simple examples of apps](https://github.com/meteor/mobile-packages)
 
 ### Using Ionic ###
 [Project and docs](https://github.com/meteoric/meteor-ionic)
