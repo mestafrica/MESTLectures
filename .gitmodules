@@ -1,0 +1,6 @@
+[submodule "Testing and Refactoring/Testing-With-Rails"]
+	path = Testing and Refactoring/Testing-With-Rails
+	url = https://github.com/MESTghana/Testing-With-Rails
+[submodule "Testing and Refactoring/Refactoring-With-Rails"]
+	path = Testing and Refactoring/Refactoring-With-Rails
+	url = https://github.com/MESTghana/Refactoring-With-Rails
