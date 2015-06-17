@@ -4,3 +4,6 @@
 [submodule "Testing and Refactoring/Refactoring-With-Rails"]
 	path = Testing and Refactoring/Refactoring-With-Rails
 	url = https://github.com/MESTghana/Refactoring-With-Rails
+[submodule "Rails/BuildingTrello"]
+	path = Rails/BuildingTrello
+	url = git@github.com:akshaya01/BuildingTrello.git
