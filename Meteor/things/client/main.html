@@ -3,32 +3,50 @@
 </head>
 
 <body>
-    <div class="container text-center">
+    <div class="container">
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
-				<h3>Things I like about MEST</h3>
-				<hr/>
-				{{> form}}
-				<hr/>
-                {{> things}}
+            {{> loginButtons}}
+      				<h3>Things I like about MEST</h3>
+      				<hr/>
+
+              {{#if currentUser}}
+      				{{> form}}
+              {{/if}}
+      				<hr/>
+              {{> things}}
             </div>
         </div>
     </div>
 </body>
 
 <template name="things">
-	<ul>
-	    {{#each things}}
-
-	    <li>{{name}}</li>
-		
-		{{else}}
-		
-		<!-- You can use {{else}} to handle an empty array-->
-		<li>No things yet</li>
-
-	    {{/each}}
-	</ul>
+    {{#each things}}
+      <div class="things-table">
+          <div class="ranking">
+            {{position}}
+          </div>
+          <div class="vote-group">
+              <div class="upvote">
+                <a href="javascript:void(0)"><i class="fa fa-arrow-up"></i></a>
+              </div>
+              <div class="score">
+                <p>{{score}}</p>
+              </div>
+              <div class="downvote">
+                 <a href="javascript:void(0)"><i class="fa fa-arrow-down"></i></a>
+              </div>
+          </div>
+          <div class="post-image">
+            
+          </div>
+          <div class="post-title">
+            <p>{{name}}</p>
+            <p><small><strong>posted by:</strong> {{> email}}</small></p>
+          </div>
+        
+      </div>
+    {{/each}}
 </template>
 
 <template name="form">
@@ -40,4 +58,8 @@
 	   	</div>
 	   </div>
 	</form>
+</template>
+
+<template name="email">
+  {{userEmail}}
 </template>

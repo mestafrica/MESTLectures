@@ -2,3 +2,29 @@ ul
 {
 	list-style: none;
 }
+
+.things-table {
+  width: 700px;
+  border: 1px solid #000;
+}
+
+.ranking, .vote-group  {
+  width: 5%;
+}
+
+.post-image {
+  width: 10%;
+}
+
+.ranking, .vote-group, .post-image, .post-title {
+  display: inline-block;
+}
+
+.post-title {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.upvote, .downvote {
+  cursor: pointer;
+}
